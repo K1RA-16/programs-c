@@ -29,23 +29,24 @@ void getElement(vector<int> v)
 void makeSet(int arr[],int n){
     int a=0;
     vector<int> v;
-    //cout<<n<<endl;
-    //    print(arr,n);
-    for(int i=0;i<n;i++){
+    
+       // print(arr,n);
+    for(int i=0;i<n;){
         a=i;
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j])
             {a++;
-            cout<<arr[i]<<arr[j]<<endl;
-        }
+          //  cout<<arr[i]<<arr[j]<<endl;
+            }
         }
         v.push_back(arr[i]);       
         i=a+1;
-        
        // cout<<a<<endl;
-        
-        
     }
+    // std::vector<int>::iterator i;
+    // for(i=v.begin();i<v.end();i++){
+    //     cout<<*i<<endl;
+    // }
     getElement(v);
 }
 

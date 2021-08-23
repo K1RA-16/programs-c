@@ -20,8 +20,8 @@ void getElement(vector<int> v)
    cout<<"enter valid position"<<endl;
    else{
       // cout<<len<<"  "<<n<<endl;
-      int &maxElement= v.at(n-1);
-      int &minElement = v.at(len-1-(n-1));
+      int &maxElement= v.at(len-1-(n-1));
+      int &minElement = v.at(n-1);
      cout<<n<<"th "<<"minimum element is - "<<minElement<<endl;
    cout<<n<<"th "<<"maximum element is - "<<maxElement<<endl;
    }

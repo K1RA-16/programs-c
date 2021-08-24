@@ -28,7 +28,6 @@ void intersection(int arr1[],int arr2[],int n1,int n2){
             cout<<arr1[i]<<" ";
             i++;
             j++;
-            
         }
     }
 }
